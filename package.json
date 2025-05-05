@@ -1,0 +1,12 @@
+{
+  "name": "visual-regression-marketing-playwright",
+  "version": "1.1.0",
+  "scripts": {
+    "test": "npx playwright test",
+    "test:visual": "npx playwright test tests/visual-regression.spec.js",
+    "show-report": "npx playwright show-report"
+  },
+  "devDependencies": {
+    "@playwright/test": "latest"
+  }
+}
